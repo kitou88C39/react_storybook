@@ -1,5 +1,8 @@
-function Button({ children }) {
-  return <button>{children}</button>;
-}
+import Button from './Button';
 
-export default Button;
+export default {
+  title: 'Button',
+  component: Button,
+};
+
+export const HelloButton = () => <Button>Hello World!</Button>;
