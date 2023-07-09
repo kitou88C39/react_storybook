@@ -6,3 +6,4 @@ export default {
 };
 
 export const HelloButton = () => <Button>Hello World!</Button>;
+export const ClickButton = () => <Button>Click!</Button>;
